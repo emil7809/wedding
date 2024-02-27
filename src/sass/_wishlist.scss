@@ -1,12 +1,29 @@
-#Wishlist {
+@use "colors";
+
+#themo {
+    margin: 3rem 0;
     display: grid;
+
     justify-content: center;
 }
 
-#themo {
-    align-self: center;
+#themo li {
+    color: colors.$pale;
+    padding-left: 3rem;
 }
 
-#themo li {
-    display: none;
+/* #Wishlist h3 {
+    margin-bottom: 3rem;
+} */
+
+.thermometer__percent-current {
+    color: colors.$dark !important;
+    background: colors.$gold;
+}
+
+
+.thermometer .thermometer__percent-current:after {
+    border-left: 6px solid colors.$pale !important;
+
+
 }
