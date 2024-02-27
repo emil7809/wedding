@@ -2,8 +2,9 @@ export default function Eventplan() {
     return (
         <>
             <section id="eventplan">
-                <h1>Eventplan</h1>
-            </section>
+                <h2>Eventplan</h2>
+                <p className="mid">Kommer snart</p>
+            </section >
         </>
     )
 }

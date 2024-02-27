@@ -1,8 +1,15 @@
 export default function Qa() {
     return (
         <>
-            <section id="Qa">
-                <h1>Qa</h1>
+            <section id="qa">
+                <h2>Q&A</h2>
+
+                <ul>
+                    <li>Er børn inviteret?<ul>
+                        <li>Nej</li>
+                    </ul>
+                    </li>
+                </ul>
             </section>
         </>
     )

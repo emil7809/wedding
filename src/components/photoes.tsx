@@ -1,8 +1,11 @@
 export default function Photoes() {
     return (
         <>
-            <section id="Photoes">
-                <h1>Photoes</h1>
+            <section id="billeder">
+                <h2>Post Billeder</h2>
+                <div>
+
+                </div>
             </section>
         </>
     )
