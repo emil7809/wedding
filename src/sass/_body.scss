@@ -1,0 +1,27 @@
+body {
+    background: radial-gradient(
+      circle,
+      rgba(135, 23, 27, 1) 0%,
+      rgba(84, 6, 8, 1) 100%
+    );
+    background: url(../../public/img/bacround.webp) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+    display: grid;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  h1,
+p,
+h2,
+h3,
+h4,
+li,
+label {
+  color: #ffecac;
+  text-align: center;
+  font-family: "Cinzel", serif;
+}
