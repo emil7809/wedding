@@ -1,12 +1,9 @@
 $pale: #ffecac;
-$gold: linear-gradient(
-    322deg,
+$gold: linear-gradient(322deg,
     rgba(255, 236, 172, 1) 0%,
     rgba(255, 249, 228, 1) 51%,
-    rgba(255, 236, 172, 1) 100%
-  );
-  $dark: #000000;
+    rgba(255, 236, 172, 1) 100%);
+$dark: #000000;
 
- $boxshadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
- $dropshadow: drop-shadow(5px 5px 10px #000);
-
+$boxshadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+$dropshadow: drop-shadow(5px 5px 10px #000);
