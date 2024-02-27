@@ -22,6 +22,7 @@ import { GiKnifeFork } from "react-icons/gi";
 import { IoPartlySunny } from "react-icons/io5";
 import { FaCamera } from "react-icons/fa";
 import { FaQuestion } from "react-icons/fa";
+import { MdEventSeat } from "react-icons/md";
 
 function App() {
 
@@ -38,7 +39,7 @@ function App() {
           <h2 className={`${active === "Adresse" ? "active" : ""}`} onClick={() => { setNavigation("Adresse"); setActive("Adresse") }} >Adresse</h2>
           <h2 className={`${active === "DressCode" ? "active" : ""}`} onClick={() => { setNavigation("DressCode"); setActive("DressCode") }}>DressCode</h2>
           <h2 className={`${active === "Wishlist" ? "active" : ""}`} onClick={() => { setNavigation("Wishlist"); setActive("Wishlist") }}>Ønskeliste</h2>
-          <h2 className={`${active === "Guestlist" ? "active" : ""}`} onClick={() => { setNavigation("Guestlist"); setActive("Guestlist") }}>Gæsteliste</h2>
+          <h2 className={`${active === "Guestlist" ? "active" : ""}`} onClick={() => { setNavigation("Guestlist"); setActive("Guestlist") }}>Bordplan</h2>
           <h2 className={`${active === "Eventplan" ? "active" : ""}`} onClick={() => { setNavigation("Eventplan"); setActive("Eventplan") }}>Eventplan</h2>
           <h2 className={`${active === "Foodmenu" ? "active" : ""}`} onClick={() => { setNavigation("Foodmenu"); setActive("Foodmenu") }}>Menu</h2>
           <h2 className={`${active === "Weather" ? "active" : ""}`} onClick={() => { setNavigation("Weather"); setActive("Weather") }}>Vejrudsigt</h2>
@@ -90,7 +91,7 @@ function App() {
           <IoGift />
         </div>
         <div className={`${active === "Guestlist" ? "active" : ""}`} onClick={() => { setNavigation("Guestlist"); setActive("Guestlist") }} >
-          <FaUsers />
+          <MdEventSeat />
         </div>
         <div className={`${active === "Eventplan" ? "active" : ""}`} onClick={() => { setNavigation("Eventplan"); setActive("Eventplan") }} >
           <MdAccessTimeFilled />

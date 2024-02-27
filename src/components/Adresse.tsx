@@ -2,7 +2,7 @@
 export default function Adresse() {
     return (
         <>
-            <section className="hidden" id="adresse">
+            <section id="adresse">
                 <div>
                     <h2>Adresse</h2>
                     <h4>Vikingepladsen</h4>

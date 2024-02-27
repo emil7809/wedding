@@ -32,3 +32,16 @@ p {
   padding: 0 1rem 1rem 1rem;
   font-weight: 300;
 }
+
+#Guestlist p {
+  text-align: center;
+}
+
+.label {
+  color: black;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 0.2rem;
+  font-family: "Cinzel", serif;
+  background: colors.$gold;
+}
