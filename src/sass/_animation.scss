@@ -1,3 +1,5 @@
+@use "colors";
+
 .hide {
     display: none !important;
 }
@@ -6,6 +8,9 @@
     display: grid !important;
 }
 
-.active {
-    fill: white;
+.active svg {
+    color: colors.$dark;
+    background: colors.$gold;
+    box-shadow: colors.$boxshadow;
+    border-radius: 6px;
 }

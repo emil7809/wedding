@@ -1,0 +1,14 @@
+nav {
+    width: 90%;
+    position: fixed;
+    bottom: 0.8rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    justify-self: center;
+    max-width: 800px;
+}
+
+nav div {
+    padding: 5px 5px 2px 5px;
+}
