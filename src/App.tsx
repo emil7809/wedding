@@ -33,7 +33,7 @@ function App() {
     <>
       <Countdown />
       <main>
-        <div className={`${navigation === "Menu" ? "show" : "hide"}`} >
+        <div id="menu" className={`${navigation === "Menu" ? "show" : "hide"}`} >
 
           <h2 className={`${active === "Adresse" ? "active" : ""}`} onClick={() => { setNavigation("Adresse"); setActive("Adresse") }} >Adresse</h2>
           <h2 className={`${active === "DressCode" ? "active" : ""}`} onClick={() => { setNavigation("DressCode"); setActive("DressCode") }}>DressCode</h2>
