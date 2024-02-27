@@ -1,0 +1,26 @@
+#countdown {
+    position: fixed;
+    margin-top: 1.2rem;
+    width: 80%;
+    max-width: 500px;
+    justify-self: center;
+  }
+
+  #countdown_container {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #countdown_container #dage,
+  #countdown_container #timer,
+  #countdown_container #min,
+  #countdown_container #sec {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  #countdown_container p {
+    margin-top: -5px;
+    font-size: 10px;
+  }
